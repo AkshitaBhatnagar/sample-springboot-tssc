@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: my-java-springboot
-          image: java-springboot-image:latest
+          image: quay.io/redhat-user-workloads/atul-fulambarkar-tenant/sample-springapp-tssc/sample-springapp-tssc
           ports:
             - name: http
               containerPort: 8081
