@@ -33,6 +33,9 @@ spec:
     - name: http-8081
       port: 8081
       protocol: TCP
+      targetPort: 8081
+  selector:
+    app: java-springboot-app
       
 ---
 kind: Route
